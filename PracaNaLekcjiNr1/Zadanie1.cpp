@@ -86,7 +86,7 @@ int main()
 
 	cout << "Jaka operacje wykonac \n";
 	cout << "1. Zaszyfruj kodem cezara \n";
-	cout << "2. Zaszyfruj lub odszyfruj kodem przestawieniowym \n";			//wybor funkcji
+	cout << "2. Zaszyfruj lub odszyfruj kodem przestawieniowym \n";			//wybor funkcji szyfrowania
 	cout << "3. Zaszyfruj oboma kodami \n";
 	cout << "4. Odszyfruj kodem cezara \n";
 	cin >> wybor;
