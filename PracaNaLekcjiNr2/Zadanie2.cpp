@@ -94,7 +94,7 @@ public:
 	void generujRSA()
 	{
 		srand(time(NULL));
-		int x = rand() % 24;
+		int x = rand() % 17;
 		int p = liczbypierwsze[x];
 		int q = liczbypierwsze[x + 1];
 		int n = p * q;
