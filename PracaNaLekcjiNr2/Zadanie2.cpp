@@ -91,7 +91,7 @@ public:
 			return a;
 		}
 
-	void generujRSA()
+	void generujRSA()														//funkcja generujaca klucze
 	{
 		srand(time(NULL));
 		int x = rand() % 17;
@@ -117,7 +117,7 @@ public:
 		this->e = e;
 	}
 	
-	void wypiszRSA()
+	void wypiszRSA()																	//funkcja wypisujaca klucze
 	{
 		cout << "klucz publiczny: " << "n: " << n << " " << "e: " << e << endl;
 		cout << "klucz prywatny: " << "n: " << n << " " << "d: " << d << endl;
